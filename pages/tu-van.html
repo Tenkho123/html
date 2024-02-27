@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input {
+            margin: 5px 2px 1px 2px;
+        }
+
+        table {
+            width: 50%;
+        }
+
+        div {
+            margin: 5px 2px 5px 2px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1 style = "color: blue"> HỎI ĐÁP TƯ VẤN TUYỂN SINH </h1>
+
+    <hr size = "3">
+
+    <form>
+        <fieldset> 
+            <legend> Liên hệ hỏi đáp tư vấn tuyển sinh </legend>
+            
+            <table>
+                <tr>
+                    <td>
+                        <label> Họ và tên: </label>
+                    </td>
+                    <td>
+                        <input id = "rightScreen" type = "text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label> Giới tính: </label>
+                    </td>
+                    <td>
+                        <thread id = "rightScreen">
+                            <label> <input type = "radio" name = "GT"> Nam  </label>
+                            <label> <input type = "radio" name = "GT"> Nữ </label>
+                        </thread>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label> Email: </label>
+                    </td>
+                    <td>
+                        <input id = "rightScreen" type = "text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label> Di động: </label>
+                    </td>
+                    <td>
+                        <input id = "rightScreen" type = "text">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label> Ngành học bạn quan tâm: </label>
+                    </td>
+                    <td>
+                        <select id = "rightScreen">
+                            <option> Công nghệ thông tin </option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label style = "display: table-row"> Câu hỏi của bạn là gì? </label> 
+                    </td>
+                    <td>
+                        <textarea id = "rightScreen" name="message"> </textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td>
+                        <label id = "rightScreen"> <input type = "checkbox"> Tôi xác nhận thông tin trên là đúng </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> </td>
+                    <td>
+                        <thread id = "rightScreen"> 
+                            <input type = "submit" value = "Gửi câu hỏi">
+                            <input type = "submit" value = "Xóa form">
+                        </thread>
+                    </td>
+                </tr>
+            </table>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
